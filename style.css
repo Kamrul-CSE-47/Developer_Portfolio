@@ -11,7 +11,7 @@ p{
 .orange_colour{
     color: orange;
 }
-section{
+.arrange{
     display: flex;
     margin-bottom: 100px;
 }
@@ -23,6 +23,7 @@ section{
     width: 100%;
     padding-top: 10px;
 }    
+
 .link_button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -40,3 +41,26 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exp_item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px 10px 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    }
+    .exp_baground{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #baby_ex{
+        border-left: 10px;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+    }
+    #ful_ex{
+        border-left: 10px;
+        border-image: linear-gradient(orange,tomato);
+        border-image-slice: 1;
+    }
