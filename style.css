@@ -62,7 +62,8 @@ p{
     }
     #xyz{
         border-left: 10px solid;
-        border-image: linear-gradient(orange, tomato ) 30;
+        border-image: linear-gradient(salmon, tomato ) 30;
+        border-image-slice: 1;
         border-radius: 15px;
 
     }
